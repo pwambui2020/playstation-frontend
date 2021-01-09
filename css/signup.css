@@ -21,19 +21,23 @@ html, body {
  /* add your style here */
 
 .wrapper {
-  background-color: #fff;
+  background-color: rgb(54, 57, 63);
   width:500px;
   padding: 25px;
   margin: 50px auto 0;
-  border-top: 5px solid rgb(24, 23, 23);
+  border-top: 5px solid rgb(5, 212, 5);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-  
+  color: white;
+}
+.wrapper a{
+  color: rgb(5, 212, 5);
 }
 .wrapper h2, h3{
   font-size: 24px;
   line-height: 24px;
   padding-bottom: 30px;
   text-align: center;
+  color: white;
 }
 .input-name{
   width: 90%;
@@ -54,12 +58,9 @@ html, body {
 .text-name{
   width: 100%;
   padding:8px 0 8px 40px;
+  
 }
-.input-name i{
-  position: absolute;
-  /* font-size: 18px; */
-  border-right: 1px solid #cccccc;
-}
+
 .email{
   padding: 8px;
 }
@@ -90,6 +91,7 @@ html, body {
   padding: 0;
   position: absolute;
   width: 1px;
+  color: white;
 }
 .gender {
   margin-right: 1em;
@@ -241,7 +243,9 @@ html, body {
 .button:hover{
     background-color: rgba(46, 46, 44, 0.952);
 }
- 
+.log a{
+   text-decoration: none;
+}
 
 
 footer {
@@ -257,4 +261,23 @@ hr.light {
     width: 75%;
     margin-top: .8rem;
     margin-bottom: 1rem;
+}
+
+
+@media (max-width: 480px) {
+  .wrapper{
+      width: 100%;
+  }
+  .input-name{
+      margin-bottom: -10px;
+  }
+  .name{
+      width: 100%;
+      padding:8px 0 8px 40px;
+      margin-bottom: 10px;
+  }
+  .input-name span{
+      padding: 0;
+      margin:0;
+  }
 }

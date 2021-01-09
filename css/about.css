@@ -20,7 +20,10 @@ html, body {
 
  /* add your style here */
 
- 
+.card{
+    text-align: center;
+    
+} 
 
 
 footer {
