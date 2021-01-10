@@ -1,8 +1,10 @@
 var form = document.getElementById('register')
 form.addEventListener('submit',function(e){
     e.preventDefault();
-    var username = document.getElementById('firstname').value
-    var username = document.getElementById('lastname').value
+    var firstname = document.getElementById('firstname').value
+    var lastname = document.getElementById('lastname').value
+    var username = document.getElementById('username').value
+    var phone = document.getElementById('phone').value
     var email= document.getElementById('email').value
     var password= document.getElementById('password').value
 
@@ -12,7 +14,10 @@ fetch('http://127.0.0.1:8000/api/register/',{
         'Content-Type': 'application/json'
     },
     body: JSON.stringify({
+        "firstname": firstname ,
+        "lastname": lastname ,
         "username": username ,
+        "phone" : phone ,
         "email": email ,
         "password": password
     })
