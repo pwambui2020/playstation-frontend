@@ -19,6 +19,30 @@ html, body {
 }
 
  /* add your style here */
+ .mad, .card-deck{
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.try {
+    padding-top: 3rem;
+    
+}
+
+
+.card-title{
+    color: blue;
+    font-weight: bolder;
+}
+.figure{
+    position: relative;
+    width: 100%;
+    height: 60%;
+    margin: 0!important;
+}
+.fixed-wrap{
+    background-image: url('../images/nicholas-lazarine-k-qx-Hyg89M-unsplash.jpg');
+}
 
  
 
