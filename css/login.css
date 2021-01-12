@@ -24,9 +24,7 @@ html, body {
    padding: 0;
    box-sizing: border-box;
 } */
-.bg1{background-color: #3b5999;}
-.bg2{background-color: #55acee;}
-.bg3{background-color: #dd4b39;}
+
 .fl{float: left;}
 .fr{float: right;}
 .wrapper{
@@ -96,8 +94,7 @@ html, body {
 .sign-up-l{width: 50%;}
 .inpt{
    width: 80%;
-   margin: 20px 10%;
-   
+   margin: 20px 10%;   
    position: relative;
    border-bottom: 1px solid #FD2E62;
 }
@@ -160,7 +157,9 @@ body
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}  
+} 
+/* login css  */
+ 
 .login{  
         width: 500px;  
         overflow: hidden;  
@@ -202,8 +201,7 @@ label{
     border: none;  
     border-radius: 17px;  
     padding-left: 20px;  
-    color: blue;  
-  
+    color: blue;
   
 }  
 span{  
@@ -226,8 +224,6 @@ a{
    height: 60;
 
 }
- 
-
 
 footer {
     background-color: rgb(54, 57, 63);
