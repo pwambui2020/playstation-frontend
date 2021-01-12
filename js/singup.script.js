@@ -7,6 +7,7 @@ form.addEventListener('submit',function(e){
     var phone = document.getElementById('phone').value
     var email= document.getElementById('email').value
     var password= document.getElementById('password').value
+    var profilephoto= document.getElementById('profilephoto').value
 
 fetch('http://127.0.0.1:8000/api/register/',{
     method: 'POST',
@@ -14,12 +15,13 @@ fetch('http://127.0.0.1:8000/api/register/',{
         'Content-Type': 'application/json'
     },
     body: JSON.stringify({
-        "firstname": firstname ,
-        "lastname": lastname ,
+        "first_name": firstname ,
+        "last_name": lastname ,
         "username": username ,
-        "phone" : phone ,
+        "contact" : phone ,
         "email": email ,
-        "password": password
+        "password": password,
+        "profilephoto": profilephoto
     })
 })
    .then(res => {
