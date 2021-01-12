@@ -37,10 +37,17 @@ hr.light {
     margin-top: .8rem;
     margin-bottom: 1rem;
 }
+#resetTokenCard{
+    display: none;
+    margin-bottom: 20%;
+    color: rgb(213, 213, 213);
+    font-size: 24px;
+
+}
 #reset-message{
     display: none;
-    margin-bottom: 30%;
-    color: rgb(213, 213, 213);
+    margin-bottom: 20%;
+    color: white;
     font-size: 24px;
 
 }
