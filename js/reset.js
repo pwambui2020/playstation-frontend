@@ -3,7 +3,7 @@ $(document).ready(function() {
         var email = $("#email").val();
         var obj;
         var status;
-        var message = 'Link to reset your password has been sent to your Email. Please click it to reset your password';
+        var message = 'Link to reset your password has been sent to your email. Please click the link to reset your password';
         fetch('http://127.0.0.1:8000/api/password_reset/',{
             method: 'POST',
             headers: {
@@ -18,6 +18,7 @@ $(document).ready(function() {
                 console.log(data.status);
                 if(data.status == 'OK'){
                     $("#resetPasswordCard").hide();
+                    $("#reset-message").show()
                     $("#resetLinkSent").append(message);
                 }else{
                     alert('There is no active user associated with the email');

@@ -1,0 +1,46 @@
+.card{
+    background-color: rgb(51, 49, 49);
+    border-radius: 15px;
+    box-shadow: 4px 4px 20px #00000080;
+    margin-bottom: 20%;
+}
+label {
+    color: #08ffd1;
+    font-size: 24px;
+}
+h3 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+body  {  
+    margin: 0;  
+    padding: 0;   
+    font-family: 'Arial'; 
+    background-image: url('../images/nicholas-lazarine-k-qx-Hyg89M-unsplash.jpg');
+    height: 80%;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+footer {
+    background-color: rgb(54, 57, 63);
+    color: rgb(213, 213, 213);
+    padding-top: 2rem;
+}
+#footer span{
+    color: rgb(5, 212, 5);
+}
+hr.light {
+    border-top: 1px solid rgb(213, 213, 213);
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+#reset-message{
+    display: none;
+    margin-bottom: 30%;
+    color: rgb(213, 213, 213);
+    font-size: 24px;
+
+}
