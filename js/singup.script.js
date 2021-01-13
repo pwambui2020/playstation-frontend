@@ -7,6 +7,7 @@ form.addEventListener('submit',function(e){
     var phone = document.getElementById('phone').value
     var email= document.getElementById('email').value
     var password= document.getElementById('password').value
+    var profilephoto= document.getElementById('profilephoto').value
 
 fetch('https://finessent12.herokuapp.com/api/register/',{
     method: 'POST',
@@ -14,12 +15,13 @@ fetch('https://finessent12.herokuapp.com/api/register/',{
         'Content-Type': 'application/json'
     },
     body: JSON.stringify({
-        "firstname": firstname ,
-        "lastname": lastname ,
+        "first_name": firstname ,
+        "last_name": lastname ,
         "username": username ,
-        "phone" : phone ,
+        "contact" : phone ,
         "email": email ,
         "password": password,
+        "profilephoto": profilephoto
     })
 })
    .then(res => {
