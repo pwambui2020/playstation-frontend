@@ -1,5 +1,5 @@
 async function getUsers() {
-    let url = 'http://127.0.0.1:8000/api/profile/';
+    let url = 'https://finessent12.herokuapp.com/api/profile/';
     try {
         let res = await fetch(url);
         return await res.json();
