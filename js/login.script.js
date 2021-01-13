@@ -23,7 +23,7 @@ fetch('https://finessent12.herokuapp.com/api/login/', {
         if(data['token']){
             var token = data['token']
             sessionStorage.setItem('token', token)
-            window.location.replace('/index.html')
+            window.location.replace('/booking.html')
 
         }
         

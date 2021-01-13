@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(34, 34, 34);
+}
+.navbar-brand {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.navbar-brand span{
+    color: rgb(5, 212, 5);
+}
+.navbar {
+    padding: .3rem;
+}
+
+
 .card{
     background-color: rgb(51, 49, 49);
     border-radius: 15px;
