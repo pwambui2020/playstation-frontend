@@ -132,13 +132,6 @@ label{
   box-sizing: border-box;
 }
 
-/* body {
-  margin: 0;
-  padding: 2rem 1.5rem;
-  font: 1rem/1.5 "PT Sans", Arial, sans-serif;
-  color: #5a5a5a;
-} */
-
 .location{
   display: inline-block;
   width: 100%;
@@ -197,16 +190,16 @@ label{
 }
 .chack::after{
   border-right: 2px solid #000;
-        border-top: 2px solid #0000;
-        content: "";
-        height: 20px;
-        left: 2px;
-        position: absolute;
-        top: 7px;
-        transform: scaleX(-1) rotate(135deg);
-        transform-origin: left top;
-        width: 7px;
-        display: none;
+  border-top: 2px solid #0000;
+  content: "";
+  height: 20px;
+  left: 2px;
+  position: absolute;
+  top: 7px;
+  transform: scaleX(-1) rotate(135deg);
+  transform-origin: left top;
+  width: 7px;
+  display: none;
 }
 .chack-button{
   border: 0;
@@ -226,12 +219,12 @@ label{
 }
 .chack-button:checked +.chack::after{
   -moz-animation: check 0.8s ease 0s running;
-      -webkit-animation: check 0.8s ease 0s running;
-      animation: check 0.8s ease 0s running;
-      display: block;
-      width: 7px;
-      height: 20px;
-      border-color: #000;
+  -webkit-animation: check 0.8s ease 0s running;
+  animation: check 0.8s ease 0s running;
+  display: block;
+  width: 7px;
+  height: 20px;
+  border-color: #000;
 }
 @-webkit-keyframes check {
   0% { height: 0; width: 0; }
@@ -257,9 +250,16 @@ label{
   margin-bottom: 10px;
   
 }
-.button:hover{
-    background-color: rgba(32, 32, 31, 0.952);
+.success-popup  {
+  transition: .3s ease all;
+  font-family:  'Ubuntu', sans-serif;
+  color:rgb(43, 41, 41);
+
 }
+#myModalLabel h4{
+  align-content: center;
+}
+
 .button:hover{
     background-color: rgba(46, 46, 44, 0.952);
 }

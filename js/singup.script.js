@@ -27,6 +27,6 @@ fetch('http://127.0.0.1:8000/api/register/',{
    .then(res => {
       return res.json()
    })
-   .then(data => console.log(data))
+   .then(data => $('#myModal').modal('show'))
    .catch(error => console.log('ERROR'))
 })
