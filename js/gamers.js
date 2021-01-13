@@ -21,9 +21,7 @@ async function getUsers() {
 
             <div class="card">
             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                <img src="http://res.cloudinary.com/dcqlinvpj/${user.profilephoto}" class="img-fluid" height="400px" width="200px"
-                    style="border-radius: 50%;" />
-                <a href="#!">
+               
                     <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                 </a>
             </div>

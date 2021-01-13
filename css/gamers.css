@@ -29,6 +29,15 @@ html, body {
     
     }
 
+.classic_thumbnails {
+        border-radius: 0px;
+        margin: 1px;
+        padding: 1px;
+        border: 1px;
+        border-color: #000000;
+        
+        }
+
  .profiles{
   display: grid;
   grid-template-columns: auto auto auto auto;
