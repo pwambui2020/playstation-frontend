@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(34, 34, 34);
+}
+.navbar-brand {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.navbar-brand span{
+    color: rgb(5, 212, 5);
+}
+.navbar {
+    padding: .3rem;
+}
+
+ /* add your style here */
+
+ .terms{
+    width: 75%;
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+footer {
+    background-color: rgb(54, 57, 63);
+    color: rgb(213, 213, 213);
+    padding-top: 2rem;
+}
+#footer span{
+    color: rgb(5, 212, 5);
+}
+hr.light {
+    border-top: 1px solid rgb(213, 213, 213);
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}

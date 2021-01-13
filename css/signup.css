@@ -45,6 +45,11 @@ html, body {
   margin: 20px auto;
   
 }
+label{
+  padding-left: 20px;
+  position: relative;
+  
+}
 .lock{
   padding:8px 11px;
 }
