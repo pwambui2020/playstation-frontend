@@ -7,7 +7,6 @@ form.addEventListener('submit',function(e){
     var phone = document.getElementById('phone').value
     var email= document.getElementById('email').value
     var password= document.getElementById('password').value
-    var profilephoto=document.getElementById('file').value
 
 fetch('https://finessent12.herokuapp.com/api/register/',{
     method: 'POST',
@@ -21,7 +20,6 @@ fetch('https://finessent12.herokuapp.com/api/register/',{
         "phone" : phone ,
         "email": email ,
         "password": password,
-        'profilephoto': profilephoto,
     })
 })
    .then(res => {
