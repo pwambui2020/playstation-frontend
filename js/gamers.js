@@ -35,28 +35,10 @@ async function getUsers() {
                 <p>Contact:${user.contact}</p>
             </div>
       
- 
-
-                
             </div>
         </div>
     </div>
         
-    
-  
-  
-  
-  
-      
-
-
-
-   
-  
-  
-  
-  
-  
                         
                         `;
   
