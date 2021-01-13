@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tournament</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="css/booking.css">
+    
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <div class="container-fluid" id="container-fluid">
+            <div class="navbar-brand" href="#">FINESSE <span>ENT <i class="fas fa-gamepad"></i></span></div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tournament.html">Tournament</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="owners.html">Owners</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="gamers.html">Gamers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <body>
+        <div class="wrapper">
+            <form id="bookform">
+                <h2>
+                    Booking Form
+                </h2>
+                <h4>
+                    Account
+                </h4>
+                <div class="input-group">
+                    <div class="input-box">
+                        <input type="text" placeholder="Full Name"required class="name">
+                        <i class="fa fa-user icon"></i>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <input type="text" placeholder="Username" required class="name">
+                        <i class="fa fa-user icon"></i>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <input type="email" placeholder="Email Adress" required class="name">
+                        <i class="fa fa-envelope icon"></i>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    
+                    <div class="input-box">
+                        <h4>
+                            Gender
+                        </h4>
+                        <input type="radio" id="b1" name="gendar" required  class="radio">
+                        <label for="b1">Male</label>
+                        <input type="radio" id="b2" name="gendar"  class="radio">
+                        <label for="b2">Female</label>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <h4>
+                            Payment Details
+                        </h4>
+                        <input type="radio" name="pay" id="bc1" required checked class="radio">
+                        <label for="bc1"><span><i class=""></i> M-pesa </span></label>
+                        <input type="radio" name="pay" id="bc2" class="radio">
+                        <label for="bc2"><span><i></i> Kshs. 1000 </span></label>
+                    </div>
+                </div>
+
+                <!-- <div class="input-group">
+                    <div class="input-box">
+                        <button type="submit">PAY NOW</button>
+                    </div>
+                </div> -->
+                <!-- <button id="myBtn">Pay Now</button> -->
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h3>Thank you for being part of the team. We have received your book-in.</h3>
+                        <h3>For more info go the landing page </h3>
+                        <a class="btn btn-primary" href="index.html" role="button">home</a>
+                    </div>
+                </div>
+                <button type="submit">Pay Now</button>
+
+            </form>
+        </div>
+        <br>
+        <script>
+            // Get the modal
+            var modal = document.getElementById("myModal");
+
+            // Get the button that opens the modal
+            
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks the button, open the modal 
+            
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function () {
+                modal.style.display = "none";
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        </script>
+
+        <br><br>
+        <!--Footer-->
+        <footer>
+            <div class="container-fluid padding ">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <a class="navbar-brand">FINESSE <span>ENT <i class="fas fa-gamepad"></i></span></a>
+                        <hr class="light">
+                        <h5>This is an amazing application where we cover you and give you different solutions for
+                            different queries.</h5>
+                        <p>Accra Road</p>
+                        <p>Nairobi,Kenya</p>
+                    </div>
+                    <div class="col-md-4">
+                        <hr class="light">
+                        <h5>Opening Hours</h5>
+                        <hr class="light">
+                        <p>Monday-Tuesday: 9am - 8pm</p>
+                        <p>Wednesday-Thursday: 9am - 8pm</p>
+                        <p>Friday-Saturday: 9am - 5pm</p>
+                        <p>Sunday: Closed</p>
+                    </div>
+                    <div class="col-md-4">
+                        <hr class="light">
+                        <h5>Contact</h5>
+                        <hr class="light">
+                        <p>888-678-4440</p>
+                        <p>finesseENT@myemail.com</p>
+                        <p>Nairobi,Kenya</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <hr class="light-100">
+                <h5 class="text-center" id="footer">&copy; FINESSE <span>ENT <i class="fas fa-gamepad"></i></span></h5>
+            </div>
+        </footer>
+       
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="./js/booking.js"></script> 
+    </body>
+
+</html>
