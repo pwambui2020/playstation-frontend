@@ -5,7 +5,7 @@ form.addEventListener('submit',function(e){
     var nickname = document.getElementById('nname').value
     var email = document.getElementById('email1').value
 
-fetch('http://127.0.0.1:8000/api/booking/', {
+fetch('https://finessent12.herokuapp.com/api/booking/', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json'

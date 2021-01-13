@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $("#resetPasswordForm").submit(function(){
         var email = $("#email").val();
-        var url = 'http://127.0.0.1:8000/api/password_reset/';
+        var url = 'https://finessent12.herokuapp.com/api/password_reset/';
         fetch(url,{
             method: 'POST',
             headers: {
@@ -29,7 +29,7 @@ $(document).ready(function() {
         var token = $("#token").val()
         var password = $("#password").val()
         var message = 'Password successfully updated'
-        var url = 'http://127.0.0.1:8000/api/password_reset/confirm/';
+        var url = 'https://finessent12.herokuapp.com/api/password_reset/confirm/';
         fetch(url,{
             method: 'POST',
             headers: {
