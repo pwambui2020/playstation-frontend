@@ -30,7 +30,7 @@ var form = document.getElementById('bookform')
 
 $("#bookform").submit(function(e){
     e.preventDefault()
-    alert("payment received")
+    alert("Booking Reserved")
     window.location.replace("/index.html");
   });
 

@@ -20,32 +20,26 @@ html, body {
 
  /* add your style here */
 
- body{
+body{
 
     background-image: url(/images/back2.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     
-    }
+}
 
-.classic_thumbnails {
-        border-radius: 0px;
-        margin: 1px;
-        padding: 1px;
-        border: 1px;
-        border-color: #000000;
-        
-        }
 
- .profiles{
+.profiles{
+
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: 100px 300px;
   grid-gap: 10px;
  
   padding: 10px;
- }
+}
+
 
 
 footer {

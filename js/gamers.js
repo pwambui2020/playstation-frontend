@@ -19,7 +19,7 @@ async function getUsers() {
         <div class="card-deck">
             
 
-            <div class="card">
+            <div class="card" >
             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                
                     <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
@@ -33,28 +33,10 @@ async function getUsers() {
                 <p>Contact:${user.contact}</p>
             </div>
       
- 
-
-                
             </div>
         </div>
     </div>
         
-    
-  
-  
-  
-  
-      
-
-
-
-   
-  
-  
-  
-  
-  
                         
                         `;
   
