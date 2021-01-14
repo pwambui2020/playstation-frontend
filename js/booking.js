@@ -31,7 +31,7 @@ var form = document.getElementById('bookform')
 $("#bookform").submit(function(e){
     e.preventDefault()
     alert("Booking Reserved")
-    window.location.replace("/index.html");
+    window.location.replace("https://pwambui2020.github.io/playstation-frontend/index.html");
   });
 
 
