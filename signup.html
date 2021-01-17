@@ -1,119 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <link rel="stylesheet" href="css/signup.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="stylesheet" href="css/signup.css">
 </head>
+
 <body>
-    <!--navbar-->
-<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+  <!--navbar-->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
     <div class="container-fluid" id="container-fluid">
-       <div class="navbar-brand" href="#">FINESSE <span>ENT <i class="fas fa-gamepad"></i></span></div>
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-       <span class="navbar-toggler-icon"></span>
-       </button>
-       <div class="collapse navbar-collapse" id="navbarResponsive">
-           <ul class="navbar-nav ml-auto">
-               <li class="nav-item">
-                   <a class="nav-link" href="index.html">Home</a>
-               </li>
-               <li class="nav-item">
-                   <a class="nav-link" href="about.html">About</a>
-               </li>
-               <li class="nav-item">
-                <a class="nav-link" href="terms-and-conditions.html">Terms</a>
-              </li>
-               <li class="nav-item">
-                   <a class="nav-link" href="tournament.html">Tournament</a>
-               </li>
-              
-               <li class="nav-item">
-                   <a class="nav-link" href="gamers.html">Gamers</a>
-               </li>
-               <li class="nav-item">
-                   <a class="nav-link" href="contact.html">Contact Us</a>
-               </li>
-               <li class="nav-item">
-                <a class="nav-link" href="terms-and-conditions.html">Terms</a>
-            </li>
-           </ul>
-       </div>
+      <div class="navbar-brand" href="#">FINESSE <span>ENT <i class="fas fa-gamepad"></i></span></div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="terms-and-conditions.html">Terms</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tournament.html">Tournament</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="gamers.html">Gamers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="terms-and-conditions.html">Terms</a>
+          </li>
+        </ul>
+      </div>
     </div>
-</nav>
+  </nav>
 
-<!--signup form content-->
+  <!--signup form content-->
 
-<div class="wrapper">
+  <div class="wrapper">
     <h2>Welcome to FINESSE ENT!</h2>
     <h3>Create Account</h3>
     <div class="form-container">
       <form id="register">
         <div class="input-name">
-          <input type="text" id="firstname" placeholder="First Name" class="name" />
+          <input type="text" id="firstname" placeholder="First Name" required class="name" />
           <span class="last">
-          <input type="text" id="lastname" placeholder="Last Name" class="name" />
+            <input type="text" id="lastname" placeholder="Last Name" required class="name" />
           </span>
         </div>
         <div class="input-name">
-          <input type="username" id="username"
-            placeholder="Username"
-            required
-            class="text-name"
-          />
+          <input type="username" required id="username" placeholder="Username" required class="text-name" />
         </div>
         <div class="input-name">
-          <input type="contact" id="phone"
-            placeholder="+254..."
-            required
-            class="text-name"
-          />
+          <input type="contact" required id="phone" placeholder="+254..." required class="text-name" />
         </div>
         <div class="input-name">
-          <input type="email" id="email"
-            placeholder="Email"
-            required
-            class="text-name"
-          />
+          <input type="email" required id="email" placeholder="Email" required class="text-name" />
         </div>
         <div class="input-name">
-          <input type="password" id ="password" placeholder="Password" class="text-name" />
+          <input type="password" id="password" placeholder="Password" required class="text-name" />
         </div>
         <div class="input-name">
-          <input
-            type="password"
-            placeholder="Re-type Password"
-            class="text-name"
-          />
+          <input type="password" placeholder="Re-type Password" required class="text-name" />
         </div>
         <label class="file">
           <input type="file" id="profilephoto" aria-label="File browser example" required="">
           <span class="file-custom"></span>
         </label>
         <div class="input-name">
-          <input
-            type="radio"
-            name="radiogroup1"
-            id="ravi"
-            class="radio-button"
-          />
+          <input type="radio" name="radiogroup1" id="ravi" required class="radio-button" />
           <label for="ravi" class="gender">Male</label>
-          <input
-            type="radio"
-            name="radiogroup1"
-            id="ravi1"
-            class="radio-button"
-          />
+          <input type="radio" name="radiogroup1" id="ravi1" class="radio-button" />
           <label for="ravi1" class="gender">Female</label>
         </div>
         <div class="input-name">
-          <select class="location">
+          <select required class="location">
             <option>Select a location</option>
             <option>kasarani</option>
             <option>Umoja</option>
@@ -125,76 +101,77 @@
           <div class="arrow"></div>
         </div>
         <div class="input-name">
-          <input type="checkbox" id="cb1" class="chack-button" />
-          <label for="cb1" class="chack"
-            >I agree with terms and conditions</label
-          >
+          <input type="checkbox" id="cb1" required class="chack-button" />
+          <label for="cb1" class="chack">I agree with terms and conditions</label>
         </div>
 
         <div class="well well-md text-center input-name">
           <!-- <input class="button" type="submit" value="Register" /> -->
           <button class="button" type="submit">
             Register
-           </button>
-           </div>
-           <div class="modal fade success-popup" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog modal-sm" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                  <h4 class="modal-title" id="myModalLabel">Successfully registered!</h4>
-                </div>
-                <div class="modal-body text-center">
-
-                    <a href="login.html" class="rd_more btn btn-default">Login</a>
-                </div>
-                
+          </button>
+        </div>
+        <div class="modal fade success-popup" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                    aria-hidden="true">×</span></button>
+                <h4 class="modal-title" id="myModalLabel">Successfully registered!</h4>
               </div>
+              <div class="modal-body text-center">
+
+                <a href="login.html" class="rd_more btn btn-default">Login</a>
+              </div>
+
             </div>
           </div>
         </div>
-          <h5 class="text-center">already have an account? <a href="login.html">Login</a></h5>
-      </form>
     </div>
+    <h5 class="text-center">already have an account? <a href="login.html">Login</a></h5>
+    </form>
   </div>
-<br>
-<br>
+  </div>
+  <br>
+  <br>
 
-<!--Footer-->
-<footer >
+  <!--Footer-->
+  <footer>
     <div class="container-fluid padding">
-        <div class="row text-center">
-            <div class="col-md-4">
-                <a class="navbar-brand">FINESSE <span>ENT <i class="fas fa-gamepad"></i></span></a>
-                <hr class="light">
-                <h5>This is an amazing application where we cover you and give you different solutions for different queries.</h5>  
-                <p>Accra Road</p>
-                <p>Nairobi,Kenya</p>
-            </div>
-            <div class="col-md-4">
-                <hr class="light">
-                <h5>Opening Hours</h5>
-                <hr class="light">
-                <p>Monday-Tuesday: 9am - 8pm</p>
-                <p>Wednesday-Thursday: 9am - 8pm</p>
-                <p>Friday-Saturday: 9am - 5pm</p>
-                <p>Sunday: Closed</p>
-            </div>
-            <div class="col-md-4">
-                <hr class="light">
-                <h5>Contact</h5>
-                <hr class="light">
-                <p>888-678-4440</p>
-                <p>finesseENT@myemail.com</p>
-            </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <a class="navbar-brand">FINESSE <span>ENT <i class="fas fa-gamepad"></i></span></a>
+          <hr class="light">
+          <h5>This is an amazing application where we cover you and give you different solutions for different queries.
+          </h5>
+          <p>Accra Road</p>
+          <p>Nairobi,Kenya</p>
         </div>
+        <div class="col-md-4">
+          <hr class="light">
+          <h5>Opening Hours</h5>
+          <hr class="light">
+          <p>Monday-Tuesday: 9am - 8pm</p>
+          <p>Wednesday-Thursday: 9am - 8pm</p>
+          <p>Friday-Saturday: 9am - 5pm</p>
+          <p>Sunday: Closed</p>
+        </div>
+        <div class="col-md-4">
+          <hr class="light">
+          <h5>Contact</h5>
+          <hr class="light">
+          <p>888-678-4440</p>
+          <p>finesseENT@myemail.com</p>
+        </div>
+      </div>
     </div>
     <div class="col-12">
-        <hr class="light-100">
-        <h5 class="text-center" id="footer">&copy; FINESSE <span>ENT <i class="fas fa-gamepad"></i></span></h5>
+      <hr class="light-100">
+      <h5 class="text-center" id="footer">&copy; FINESSE <span>ENT <i class="fas fa-gamepad"></i></span></h5>
     </div>
-</footer>
+  </footer>
 
-<script src="js/singup.script.js"></script>
+  <script src="js/singup.script.js"></script>
 </body>
+
 </html>
