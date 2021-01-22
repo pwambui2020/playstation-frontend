@@ -257,9 +257,18 @@ label{
   margin-bottom: 10px;
   
 }
-.button:hover{
-    background-color: rgba(32, 32, 31, 0.952);
+
+.success-popup  {
+  transition: .3s ease all;
+  font-family:  'Ubuntu', sans-serif;
+  color:rgb(43, 41, 41);
+
 }
+#myModalLabel h4{
+  align-content: center;
+}
+
+
 .button:hover{
     background-color: rgba(46, 46, 44, 0.952);
 }
