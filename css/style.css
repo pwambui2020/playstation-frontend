@@ -48,12 +48,12 @@ html, body {
     padding-bottom: 1rem;
 }
 .btn-primary {
-    background-color: rgb(118, 72, 177);
-    border:1px solid #4d176d;
+    background-color: #5eb105;
+    border:1px solid rgb(5, 212, 5);
 }
 .btn-primary:hover {
-    background-color: rgb(83, 49, 128);
-    border:1px solid #4d176d;
+    background-color: #5eb105;
+    border:1px solid rgb(5, 212, 5);
 }
 
 .jumbotron {

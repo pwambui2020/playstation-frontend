@@ -20,14 +20,14 @@ html, body {
 
  /* add your style here */
 
-body{
+/* body{
 
     background-image: url(/images/back2.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     
-}
+} */
 
 
 .profiles{
@@ -53,6 +53,12 @@ footer {
 hr.light {
     border-top: 1px solid rgb(213, 213, 213);
     width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+hr.light-100{
+    border-top: 1px solid rgb(213, 213, 213);
+    width: 100%;
     margin-top: .8rem;
     margin-bottom: 1rem;
 }
